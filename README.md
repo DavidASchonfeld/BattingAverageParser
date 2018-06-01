@@ -1,15 +1,18 @@
 # BattingAverageParser
-<br/> ## Description
+## Description
 <br/>This file was created for my "Rapid Prototype Development and Creative Programming" course. It calculates the batting average of each baseball player from an input .txt file. Then, it prints out the players and their batting averages, sorted by their batting averages. This output is printed to the console and to a .txt file called "team_batting_average.txt".
 
 ## Formats
-### Input Format:
+### Script Usage
+```BattingAverageParser filename```
+### Input Text FileInput
+#### Line Format:
 <br/>```[First Name] [Last Name] batted[Number] times with [Number] hits and [Number] runs.```
-<br/>### Input Format in Regex Form:
+#### Line Format in Regex Form:
 <br/>```(\w+\s+\w+)(?:\s+batted\s+)(\d)(?:\s+times\s+with\s+)(\d)(?:\s+hits\s+and\s+)(\d)(?:\s+runs)```
 <br/>Note: Lines in the file that do not match the format will not be processed.
 ## Inputs and Outputs
-<br/>### Example Input:
+### Example Input:
 ```
 ---Justice League of America ---
 
@@ -30,7 +33,7 @@ Jaime Reyes batted 4 times with 3 hits and 2 runs
 Zatanna Zatara batted 4 times with 2 hits and 1 runs
 ```
 
-<br/>### Example Output:
+### Example Output:
 ```
 Dinah Drake: 1.000
 Jaime Reyes: 0.857
