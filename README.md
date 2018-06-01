@@ -7,10 +7,10 @@
 ```BattingAverageParser filename```
 ### Input Text FileInput
 #### Line Format:
-<br/>```[First Name] [Last Name] batted[Number] times with [Number] hits and [Number] runs.```
+```[First Name] [Last Name] batted[Number] times with [Number] hits and [Number] runs.```
 #### Line Format in Regex Form:
-<br/>```(\w+\s+\w+)(?:\s+batted\s+)(\d)(?:\s+times\s+with\s+)(\d)(?:\s+hits\s+and\s+)(\d)(?:\s+runs)```
-<br/>Note: Lines in the file that do not match the format will not be processed.
+```(\w+\s+\w+)(?:\s+batted\s+)(\d)(?:\s+times\s+with\s+)(\d)(?:\s+hits\s+and\s+)(\d)(?:\s+runs)```
+<br/><br/>Note: Lines in the file that do not match the format will not be processed.
 ## Inputs and Outputs
 ### Example Input:
 ```
